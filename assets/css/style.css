@@ -1,0 +1,112 @@
+.container{
+    max-width: 1450px;
+}
+.navbar{
+display: flex;    
+}
+
+.navbar .up{
+    display: flex;
+    
+}
+
+.navbar .up .address{
+
+   font-weight: 100;
+}
+
+.navbar .up .icon-center{
+    margin-left: 200px;
+    display: flex;
+}
+
+.navbar .up .icon-search{
+    margin-left: 200px;
+}
+.navbar .up .apply{
+    margin-left: 160px;
+   
+}
+.navbar .up .apply button{
+    background-color: rgb(255, 238, 0);
+    height: 50px;
+    width: 170px;
+    color: black;
+    font-weight: 800;
+}
+.fields-of-study{
+margin-top: 50px;
+margin-left: 180px;
+}
+.fields-of-study .study-left-up img{
+  margin-top: 20px; 
+}
+.fields-of-study .study-left-up span{
+    margin-top: 20px; 
+}
+.fields-of-study .study-right{
+    font-size: 40px;
+
+}
+.fields-of-study .study-right .up{
+    font-size: 40px;
+    border: 1px solid black;
+    height: 150px;
+    width: 250px;
+    padding: 20px;
+                  
+    
+}
+.fields-of-study .study-right .up h5{
+    margin-top: 20px;
+
+}
+.fields-of-study .study-right .down{
+    font-size: 40px;
+    border: 1px solid black;
+    height: 150px;
+    width: 250px;
+    padding: 20px;
+                  
+    
+}
+.fields-of-study .study-right .down h5{
+    margin-top: 20px;
+
+}
+
+.fields-of-study .study-right-two .up{
+    font-size: 40px;
+    border: 1px solid black;
+    height: 150px;
+    width: 250px;
+    padding: 20px;
+                  
+    
+}
+.fields-of-study .study-right-two .up h5{
+    margin-top: 20px;
+
+}
+.fields-of-study .study-right-two .down{
+    font-size: 40px;
+    border: 1px solid black;
+    height: 150px;
+    width: 250px;
+    padding: 20px;
+                  
+    
+}
+.fields-of-study .study-right-two .down h5{
+    margin-top: 20px;
+
+}
+
+.text{
+    margin-top: 80px;
+    margin-left: 180px;
+}
+.text .txt{
+    margin-top: 30px;
+}
+
