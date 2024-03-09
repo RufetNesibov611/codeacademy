@@ -20,9 +20,15 @@ display: flex;
     display: flex;
 }
 
+.navbar .up .icon-center :hover{
+    margin-top: 10px;
+    transition: 0.3;
+}
+
 .navbar .up .icon-search{
     margin-left: 200px;
 }
+
 .navbar .up .apply{
     margin-left: 160px;
    
@@ -34,10 +40,13 @@ display: flex;
     color: black;
     font-weight: 800;
 }
+
+
 .fields-of-study{
 margin-top: 50px;
 margin-left: 180px;
 }
+
 .fields-of-study .study-left-up img{
   margin-top: 20px; 
 }
@@ -46,7 +55,13 @@ margin-left: 180px;
 }
 .fields-of-study .study-right{
     font-size: 40px;
+    margin-left: 85px;
 
+}
+.fields-of-study .study-right .up :hover{
+    height: 100px;
+    width: 200px;
+    background-color: blueviolet;
 }
 .fields-of-study .study-right .up{
     font-size: 40px;
@@ -54,6 +69,7 @@ margin-left: 180px;
     height: 150px;
     width: 250px;
     padding: 20px;
+
                   
     
 }
@@ -109,4 +125,145 @@ margin-left: 180px;
 .text .txt{
     margin-top: 30px;
 }
+.about{
+    display: flex;
+    margin-top: 80px;
+    margin-left: 180px;
+   
+    
+}
+.about img{
+    cursor: pointer;
+}
+.about .about-left-one{
+    display: flex;
+    height: 250px;
+    width: 500px;
+    
+}
+.about .about-left-one .text{
+    margin-left: 20px;
+    margin-top: 20px;
+}
+.about .about-left-one .text a{
+    text-decoration: none;
+    color: black;
+ }
+
+.about .about-right-one{
+    display: flex;
+    height: 250px;
+    width: 500px;
+    margin-top: 20px;
+}
+.about .about-right-one .text{
+    margin-left: 20px;
+    margin-top: 20px;
+
+}
+.about .about-right-one .text a{
+   text-decoration: none;
+   color: black;
+}
+
+.info{
+    margin-top: 130px;
+}
+
+.info .image-one img{
+    height: 400px;
+    width: 100%;
+    position: relative;
+    
+    
+}
+.info .image-one h4{
+    position: absolute;
+    z-index: 1;
+    color: white;
+    text-align: center;
+    margin-top: 40px;
+    margin-left: 300px;
+
+}
+.info .image-one .numbers {
+    position: absolute;
+    z-index: 1;
+    margin-top: 200px;
+    margin-left: 40px;
+}
+.info .image-one .update {
+    position: absolute;
+    z-index: 1;
+    margin-top: 200px;
+    margin-left: -160px;
+}
+.info .image-one .boss {
+    position: absolute;
+    z-index: 1;
+    margin-top: 200px;
+    margin-left: -300px;
+}
+.info .image-one .duty-update {
+    position: absolute;
+    z-index: 1;
+    margin-top: 200px;
+    margin-left: -440px;
+}
+.graduate-comment{
+    text-align: center;
+    margin-top: 80px;
+    cursor: pointer;
+}
+
+.academy-pt{
+
+}
+.academy-pt h2{
+    text-align: center;
+    margin-top: 110px;
+}
+.academy-pt h6{
+    text-align: center;
+    margin-top: 25px;
+}
+.academy-pt img{
+    text-align: center;
+    margin-top: 30px;
+    margin-left: 650px;
+}
+.documents{
+    display: flex;
+    margin-left: 120px;
+    cursor: pointer;
+}
+.documents img{
+    height: 55px;
+    width: 160px;
+    margin-left: 30px;
+    margin-top: 40px;
+   
+
+}
+.my-garaduate{
+
+}
+.my-graduate .txt h1{
+   text-align: center;
+   margin-top: 150px;
+}
+
+.my-garaduate .student-image img{
+    width: 100px;
+    height: 65px;
+}
+
+
+
+
+
+
+
+
+
 
